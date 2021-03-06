@@ -1,0 +1,18 @@
+Package: newpackage
+Title: Package for getting information about Pokemon
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Samin",
+           family = "Charepoo",
+           role = c("aut", "cre"),
+           email = "samincharepoo@gmail.com")
+Description: in cass example package using pokemon. This is what the data set is: it allows the user to pick two pokemon players to find information about, then allows them to fight/battle to see who would win based on their Health Points
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
